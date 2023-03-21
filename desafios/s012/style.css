@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'cabecalho';
+    src: url('fontes/PassionOne-Bold.ttf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --fonte-cabecalho: 'cabecalho', sans-serif;
+}
+
+header {
+    background-color: black;
+
+    
+}
+
+header > p {
+    color: white;
+    text-align: center;
+    
+    
+    
+}
+
+#cabecalho {
+    font-family: var(--fonte-cabecalho);
+    font-size: 130px;
+
+
+}
