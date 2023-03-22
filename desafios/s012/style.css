@@ -1,32 +1,65 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family: 'cabecalho';
-    src: url('fontes/PassionOne-Bold.ttf') format('opentype');
-    font-weight: normal;
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-:root {
-    --fonte-cabecalho: 'cabecalho', sans-serif;
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
 }
 
 header {
     background-color: black;
+    color: white;
+    text-align: center;
+}
 
-    
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header > p {
-    color: white;
-    text-align: center;
-    
-    
-    
+    padding-bottom: 50px;
 }
 
-#cabecalho {
-    font-family: var(--fonte-cabecalho);
-    font-size: 130px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
 
+section.normal {
+    background-color: white;
+    color: black;
+}
 
+section.imagem {
+    background-color: rgb(45, 41, 41);
+    color: white;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.34);
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
 }
