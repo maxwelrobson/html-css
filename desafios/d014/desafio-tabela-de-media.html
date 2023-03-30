@@ -14,18 +14,23 @@
         th, td {
             
             border: 1px solid black;
-            padding: 5px;
-            
+            padding: 5px;          
         }
 
-        
+        .num {
+            text-align: center;
+        }
 
+        .cabecalho {
+            background-color: rgb(128, 120, 120);
+            color: white;
+        }
     </style>
 </head>
 <body>
     <table>
         <thead>
-            <tr>
+            <tr class="cabecalho">
                 <th rowspan="2">Área</th>
                 <th rowspan="2">Disciplinas</th>
                 <th colspan="2">Notas</th>
@@ -33,42 +38,44 @@
                 
             </tr>
 
-            <tr>
+            <tr class="cabecalho">
                 <th>Nota 1</th>
                 <th>Nota 2</th>
             </tr>
+
+        </thead>    
 
             <tbody>
                 <tr>
                     <th rowspan="4">Exatas</th>
                     <td>Matemática</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
                 </tr>
 
                 <tr>
                     <td>Física</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
                 </tr>
 
                 <tr>
                     <td>Química</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
                 </tr>
 
                 <tr>
                     <td>Biologia</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
                 </tr>
 
-                <tr>
+                <tr class="cabecalho">
                     <th colspan="4">Média de Exatas</th>
                     <th>0.0</th>
                 </tr>
@@ -76,24 +83,24 @@
                 <tr>
                     <th rowspan="2">Humanas</th>
                     <td>História</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
                 </tr>
 
                 <tr>
                     <td>Geografia</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
-                    <td>0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
+                    <td class="num">0.0</td>
                 </tr>
 
-                <tr>
+                <tr class="cabecalho">
                     <th colspan="4">Média de Humanas</th>
                     <th>0.0</th>
                 </tr>
             </tbody>
-        </thead>
+        
     </table>
 </body>
 </html>
