@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: brown;
+}
+
+img {
+    text-align: center;
+}
+
+h3 {
+    color: brown;
+    text-decoration: underline;
+}
+
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 35px;
+}
