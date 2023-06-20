@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+html {
+    background-color: gray;
+}
+
+body {
+    background-color: white;
+    margin: 50px 60px;
+    padding: 50px;
+    width: auto;
+
+}
+
+h1 {
+    font-size: 25px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(53, 187, 53);
+    border-radius: 0px 40px 40px 0px;
+    border-left: 10px solid black;
+    padding: 10px;
+}
+
+img {
+    width: 600px;
+    
+}
+
+div {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 25px;
+}
+
+ul {
+    font-weight: bold;
+}
+
+a {
+    background-color: rgb(53, 187, 53);
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
