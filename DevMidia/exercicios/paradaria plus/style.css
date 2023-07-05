@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F4F0E5;
+}
+
+div {
+    padding: 0px 200px;
+    text-align: center;
+}
+
+.secao-sobre {
+    text-align: center;
+    
+}
+
+.secao-sobre img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    padding: 0px 200px;
+}
+
+.secao-sobre a {
+    padding: 20px;
+    
+    
+}
+
+.secao-produtos {
+    border-top: 1px solid black ;
+    margin-top: 50px;
+}
+
+.secao-produtos img {
+    display: center;
+}
