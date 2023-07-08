@@ -2,36 +2,32 @@
 
 body {
     background-color: #F4F0E5;
+    margin: 0px 180px;
 }
 
-div {
-    padding: 0px 200px;
+.cabecalho {
     text-align: center;
+}
+
+.cabecalho img {
+    height: 200px;
+}
+
+.cabecalho a {
+    padding: 10px;
+    font-size: 20px;
+    color: #69482A;
 }
 
 .secao-sobre {
+    border-top: 1px solid #DE8E37;
     text-align: center;
-    
+}
+
+.secao-sobre .sobre-destaque {
+    color: #DE8E37; /*falta alterar a fonte*/
 }
 
 .secao-sobre img {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 20px;
-    padding: 0px 200px;
-}
-
-.secao-sobre a {
-    padding: 20px;
-    
-    
-}
-
-.secao-produtos {
-    border-top: 1px solid black ;
-    margin-top: 50px;
-}
-
-.secao-produtos img {
-    display: center;
+    width: 700px;
 }
