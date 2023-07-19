@@ -42,6 +42,7 @@ span {
     border-bottom: 2px solid #1d1d1d;
     text-decoration: none;
     margin: none 10px;
+    padding: 0px 10px;
 }
 
 .secao2 {
@@ -49,11 +50,85 @@ span {
     padding-top: none;
 }
 
-.secao3 h2 {
+.secao3 h1 {
     color: #1d1d1d;
     margin-bottom: 5px;
 }
 
-.secao h3 {
+.secao3 h2 {
     color: #1c81c0;
+    margin-top: none;
+    font-weight: normal;
 }
+
+.secao3 img, .secao5 img {
+    width: 450px;
+}
+
+.texto-azul {
+    color: #1d80c1;
+}
+
+.secao4, .secao6 {
+    background-color: #1d80c1;
+}
+
+.secao4 h2, .secao6 h2 {
+    color: white;
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.secao4 p {
+    color: white;
+    line-height: 42px;
+    font-size: 22px;
+    text-align: center;
+    width: 700px;
+}
+
+.texto-amarelo {
+    font-weight: bold;
+    color: #fff81b;
+}
+
+.secao4 ul {
+    margin: 40px auto;
+    width: 135px;
+    color: white;
+    line-height: 42px;
+    text-align: left;
+    font-size: 22px;
+}
+
+.secao5 h2 {
+    font-size: 28px;
+    line-height: 42px;
+}
+
+.secao6 p {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    
+}
+
+.secao6 ul {
+    margin: 40px auto;
+    width: 210px;
+    
+}
+
+.secao6 li {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.secao6 a {
+    background-color: white;
+    color: #1d80c1;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
