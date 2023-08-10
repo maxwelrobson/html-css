@@ -4,25 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SuperMan e Lois</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h3>Superman & Lois</h3>
-        <a href="#">Sinopse</a>
-        <a href="#">Disponibilidade</a>
-    </header>
+    <div class="topo">
+        <div>
+            Superman & Lois
+    
+            <span>
+                <a href="#sinopse">Sinopse</a>
+                <a href="#disponibilidade">Disponibilidade</a>
+            </span>
+        </div>
 
-    <div>
         <img src="imagens/capa.jpg" alt="">
+    </div>
 
-        <h3>Sinopse</h3>
+    <div id="sinopse" class="secao">
+        <h2>Sinopse</h2>
 
         <p>Após anos enfrentando supervilões megalomaníacos, monstros destruidores e invasores alienígenas, o Homem de Aço e a famosa jornalista Lois Lane retornam à idílica cidade de Smallville para criar os filhos adolescentes, Jonathan e Jordan.
             Na estreia da série, Superman e Lois retornam a Smallville para enfrentar um de seus maiores desafios: criar dois meninos sendo pais que trabalham.</p>
 
     </div>
 
-    <div>
+    <div id="disponobilidade" class="secao">
         <h3>Disponibilidade</h3>
 
         <img src="imagens/tv.jpg" alt="">
@@ -31,21 +37,25 @@
 
     </div>
 
-    <div>
+    <div class="secao" >
         <p>COnfira abaixo algumas umagens da série:</p>
 
-        <img src="imagens/1.jpg" alt="">
-        <img src="imagens/2.jpg" alt="">
-        <img src="imagens/3.jpg" alt="">
-        <img src="imagens/4.jpg" alt="">
-        <img src="imagens/5.jpg" alt="">
-        <img src="imagens/6.jpg" alt="">
+        <div class="galeria">
+            <img class="imagem-sombra" src="imagens/1.jpg" alt="">
+            <img class="imagem-sombra" src="imagens/2.jpg" alt="">
+            <img class="imagem-sombra" src="imagens/3.jpg" alt="">
+            <img class="imagem-sombra" src="imagens/4.jpg" alt="">
+            <img class="imagem-sombra" src="imagens/5.jpg" alt="">
+            <img class="imagem-sombra" src="imagens/6.jpg" alt="">
+        </div>
 
-        <p>Assista Superman & Lois na <a href="#">HBO Max</a></p>
+        <div class="informacao">
+            <p>Assista Superman & Lois na <a href="#">HBO Max</a></p>
+        </div>
     </div>
 
-    <footer>
-        <p>HBO Max - 2022</p>
+    <footer class="rodape">
+        HBO Max - 2022
     </footer>
 </body>
 </html>
