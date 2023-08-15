@@ -7,6 +7,13 @@
     background: #4710c1;
     color: white;
     padding: 20px 0;
+    
+}
+
+.teste {
+    position: fixed;
+    background-color: #4710c1;
+    padding: 10px;
 }
 
 .topo div {
