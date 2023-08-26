@@ -90,6 +90,7 @@
 .contatos h2 {
     position: absolute;
     text-align: center;
+    font-family: "Oswald";
     padding: 10px;
     background-color: #604829;
     color: white;
@@ -98,5 +99,24 @@
     top: 20%;
     left: 0;
     right: 0;
+    
+}
+
+.contatos iframe {
+    position: absolute;
+    top: 23%;
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    width: 75%;
+    height: 50%;
+}
+
+.contatos p {
+    position: absolute;
+    padding: 10px;
+    height: 20%;
+    
     
 }
