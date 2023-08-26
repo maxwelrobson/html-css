@@ -81,17 +81,21 @@
 }
 
 .contatos {
+    position: relative;
     background-image: url(imagens/parallax-imagem4.png);
     width: 100%;
     height: 100vh;
 }
 
 .contatos h2 {
+    position: absolute;
     text-align: center;
+    padding: 10px;
     background-color: #604829;
-    width: 400px;
-    margin: 0px;
-    top: 10%;
+    color: white;
+    width: 500px;
+    margin: 0 auto;
+    top: 20%;
     left: 0;
     right: 0;
     
