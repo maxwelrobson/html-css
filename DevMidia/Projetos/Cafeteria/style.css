@@ -96,7 +96,7 @@
     color: white;
     width: 500px;
     margin: 0 auto;
-    top: 20%;
+    top: 10%;
     left: 0;
     right: 0;
     
@@ -113,10 +113,41 @@
     height: 50%;
 }
 
-.contatos p {
+.container-contatos {
+    background-color: #604829;
+    width: 500px;
     position: absolute;
     padding: 10px;
-    height: 20%;
+    left: 0%;
+    right: 0;
+    bottom: 5%;
+    margin: auto;
+    text-align: center;
     
+}
+
+
+.container-contatos p {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    padding: 5px;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.568);
+   
+}
+
+.container-contatos a {
+    text-decoration: none;
+    color: white;
+}
+
+.horarios {
+    background-image: url(imagens/cafeteria.jpg);
+    color: white;
+    height: 100vh;
+}
+
+.horarios h2 {
+    text-align: center;
+    font-family: "Oswald", sans-serif;
     
 }
